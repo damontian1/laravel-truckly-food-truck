@@ -6,3 +6,441 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400,700');
+/***********************/
+/*    color scheme     */
+/***********************/
+
+
+$primary: #3F5EF8;
+$secondary: #ffffff;
+$highlight: #3ecf8e;
+$dim: rgba(0,0,0,0.2);
+$text: #6b7c93;
+
+/***********************/
+/*     all views       */
+/***********************/
+
+
+body {
+  font-family: "Bitter", serif;
+  background-color: $primary;
+  color: $secondary;
+}
+
+
+/***********************/
+/* bootstrap override  */
+/***********************/
+
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+}
+.navbar {
+  border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: $secondary;
+  font-weight: 600;
+}
+.btn-primary {
+  background-color: $highlight;
+  color: $secondary !important;
+  font-weight: bolder;
+  font-size: 1.3em;
+  border-color: transparent;
+  width: 250px;
+  box-shadow: 0 4px 20px rgba(50,50,93,.50);
+  &:hover {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+    transition: .2s ease-out;
+  }
+}
+.btn-default {
+  background-color: $text;
+  color: $secondary !important;
+  font-weight: bolder;
+  font-size: 1.3em;
+  border-color: transparent;
+  width: 250px;
+  box-shadow: 0 4px 20px rgba(50,50,93,.50);
+  &:hover {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+    transition: .2s ease-out;
+  }
+}
+.jumbotron {
+  background-color: white;
+}
+.navbar-dark .navbar-toggler {
+  border: none !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: $highlight;
+}
+nav.navbar.navbar-default.border-bottom {
+  border-bottom: 1px solid white !important;
+  padding-bottom: 4em;
+}
+#checkout_cart {
+  table {
+    td {
+      max-width: 120px;
+    }
+  }
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+
+/***********************/
+/*     mobile view     */
+/***********************/
+
+#banner-section {
+  color: $secondary;
+  .banner-fold {
+    display: block;
+    padding: 0 1.5em 4em 1.5em;
+    h4 {
+      line-height: 27px;
+      font-size: 17px;
+    }
+    img {
+      padding: 4em 0em;
+      transform: translateX(-25px);
+    }
+  }
+  h1 {
+    font-size: 3.2em;
+  }
+}
+#footer-section {
+  .panel-footer {
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  span {
+    margin-right: 35px;
+  }
+}
+#body-section {
+  h4 {
+    text-align: left;
+    color: $text;
+    padding: 1.5em 0em;
+    line-height: 27px;
+    font-size: 17px;
+  }
+  .login-form {
+    width: 552px;
+    max-width: 360px;
+  }
+  .login_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .signin_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#navbar-section {
+  .icon-bar {
+    background-color: white;
+    height: 3px;
+  }
+  .navbar-collapse {
+    background-color: $primary;
+  }
+  .navbar.navbar-default {
+    z-index: 1000;
+  }
+  nav.navbar.navbar-default {
+    height: 55px;
+  }
+  .logo_icon {
+    width: 85px;
+  }
+  #logo_icon2 {
+    width: 250px;
+  }
+  .glyphicon.glyphicon-menu-hamburger{
+    font-size: 30px;
+    margin: 20px 20px;
+  }
+  .navbar-brand2 {
+    color: $secondary;
+    font-size: 1.6em;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  .navbar.navbar-default {
+    padding-top: 1em;
+    background-color: $primary;
+    border: none;
+  }
+  ul.nav.navbar-nav.navbar-right{
+    margin-top: 0px;
+  }
+  .navbar-nav {
+    background-color: $primary;
+  }
+}
+#truck-options {
+  display: block;
+  padding-bottom: 1.5em;
+}
+#signup {
+  color: $text;
+  p {
+    text-align: center;
+    color: $highlight;
+  }
+  label {
+    color: $text;
+  }
+}
+.signin_form {
+  margin-bottom: 30px;
+  height: 100%;
+  padding: 3em 0;
+}
+.form-input {
+  color: $secondary;
+}
+.signup_banner {
+  background-color: $secondary;
+  height: 100%;
+  padding: 3em 0;
+}
+.center {
+  text-align: center;
+}
+input[type=submit] {
+  color: black;
+}
+.map_img {
+  width: 300px;
+  margin-top: 15px;
+}
+.banner_text {
+  background-color: $dim;
+  margin-bottom: 15px;
+  color: $secondary;
+}
+.schedule1 {
+  margin-top: 40px;
+}
+.nav-tabs {
+  background-color: $dim;
+}
+.tab-content {
+  background-color: $dim;
+  margin-top: 15px;
+}
+.nav-tabs>li>a {
+  margin-right: -6px;
+}
+.no_link {
+  text-decoration: none;
+  color: $secondary;
+}
+.no_link:hover {
+  color: $secondary;
+  text-decoration: none;
+}
+#carousel-example-generic {
+  margin-top: 0px;
+}
+.panel.panel-default {
+  margin-top: 20px;
+}
+.mobile_img {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.add_button {
+  color: $secondary;
+  margin-top: 15px;
+}
+.modal-content{
+  height: 150px;
+  margin-top: 50%;
+}
+.signin_input {
+  width: 60%;
+  margin: 0 auto;
+}
+.nav.nav-tabs.schedule1{
+  border: none;
+}
+.image_carousel {
+  padding: 0;
+}
+.carousel {
+  margin: -15px;
+}
+.img_slider {
+  width: 100%;
+}
+.container1, .container2 {
+  margin-bottom: 30px;
+  width: 90%;
+}
+.container4 {
+  margin-top: 15px;
+}
+#bs-example-navbar-collapse-1 {
+  border: 0;
+}
+.hidden {
+  display: none;
+}
+.banner_text2 {
+  background-color: $dim;
+  color: $secondary;
+  margin-bottom: 30px;
+}
+.truck_text {
+  color: $secondary;
+}
+#map{
+  border: 15px solid white;
+  border-radius: 5px;
+  height: 600px;
+  width: 90%;
+  margin: 2em 0;
+  color: black;
+}
+.container3 {
+  margin-bottom: 50px;
+}
+.container4 {
+  margin-top: 10px;
+}
+#hr_id {
+  width: 75%;
+}
+.container7 {
+  margin-bottom: 125px;
+}
+.highlight {
+  color: $highlight;
+}
+input[type=submit] {
+  width: 100%;
+}
+.shopping_buttons {
+  text-align: center;
+}
+.table-alignment {
+  text-align: center;
+}
+.login-form {
+  & > div {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+.logo {
+  color: #ffffff;
+  font-size: 1.6em;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/***********************/
+/*  desktop view css   */
+/***********************/
+
+
+@media only screen and(min-width: 992px){
+
+  #banner-section {
+    h1 {
+      font-size: 3.7em;
+    }
+    color: white;
+    .signin_banner {
+      background-color: transparent;
+      border: none;
+    }
+    .banner-fold {
+      display: flex;
+      align-items: center;
+      padding: 0 0 3em 0;
+      h4 {
+        padding: 0.5em 2em;
+        font-size: 19px;
+      }
+    }
+  }
+
+  #body-section {
+    margin-top: 5em;
+    .jumbotron {
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+    h4 {
+      line-height: 28px;
+      padding: 2em;
+      font-size: 1.3em;
+    }
+    .login-form {
+      width: 552px;
+      max-width: 552px;
+    }
+    .login_input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .signin_input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  #truck-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+  }
+  input[type=submit] {
+    width: 50%;
+  }
+  .bottom-border {
+    border-bottom: 1px solid white;
+  }
+  .shopping_buttons {
+    text-align: right;
+  }
+  .login-form {
+    & > div {
+      margin: 0;
+    }
+  }
+}

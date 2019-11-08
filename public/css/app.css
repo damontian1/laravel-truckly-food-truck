@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Bitter:400,400,700);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -11097,6 +11097,546 @@ a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
+  }
+}
+
+/***********************/
+
+/*    color scheme     */
+
+/***********************/
+
+/***********************/
+
+/*     all views       */
+
+/***********************/
+
+body {
+  font-family: "Bitter", serif;
+  background-color: #3F5EF8;
+  color: #ffffff;
+}
+
+/***********************/
+
+/* bootstrap override  */
+
+/***********************/
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #3ecf8e;
+  color: #ffffff !important;
+  font-weight: bolder;
+  font-size: 1.3em;
+  border-color: transparent;
+  width: 250px;
+  box-shadow: 0 4px 20px rgba(50, 50, 93, 0.5);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.btn-default {
+  background-color: #6b7c93;
+  color: #ffffff !important;
+  font-weight: bolder;
+  font-size: 1.3em;
+  border-color: transparent;
+  width: 250px;
+  box-shadow: 0 4px 20px rgba(50, 50, 93, 0.5);
+}
+
+.btn-default:hover {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.navbar-dark .navbar-toggler {
+  border: none !important;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #3ecf8e;
+}
+
+nav.navbar.navbar-default.border-bottom {
+  border-bottom: 1px solid white !important;
+  padding-bottom: 4em;
+}
+
+#checkout_cart table td {
+  max-width: 120px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/***********************/
+
+/*     mobile view     */
+
+/***********************/
+
+#banner-section {
+  color: #ffffff;
+}
+
+#banner-section .banner-fold {
+  display: block;
+  padding: 0 1.5em 4em 1.5em;
+}
+
+#banner-section .banner-fold h4 {
+  line-height: 27px;
+  font-size: 17px;
+}
+
+#banner-section .banner-fold img {
+  padding: 4em 0em;
+  -webkit-transform: translateX(-25px);
+          transform: translateX(-25px);
+}
+
+#banner-section h1 {
+  font-size: 3.2em;
+}
+
+#footer-section .panel-footer {
+  background-color: transparent;
+  border: none;
+  color: white;
+  height: 120px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#footer-section span {
+  margin-right: 35px;
+}
+
+#body-section h4 {
+  text-align: left;
+  color: #6b7c93;
+  padding: 1.5em 0em;
+  line-height: 27px;
+  font-size: 17px;
+}
+
+#body-section .login-form {
+  width: 552px;
+  max-width: 360px;
+}
+
+#body-section .login_input {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#body-section .signin_input {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#navbar-section .icon-bar {
+  background-color: white;
+  height: 3px;
+}
+
+#navbar-section .navbar-collapse {
+  background-color: #3F5EF8;
+}
+
+#navbar-section .navbar.navbar-default {
+  z-index: 1000;
+}
+
+#navbar-section nav.navbar.navbar-default {
+  height: 55px;
+}
+
+#navbar-section .logo_icon {
+  width: 85px;
+}
+
+#navbar-section #logo_icon2 {
+  width: 250px;
+}
+
+#navbar-section .glyphicon.glyphicon-menu-hamburger {
+  font-size: 30px;
+  margin: 20px 20px;
+}
+
+#navbar-section .navbar-brand2 {
+  color: #ffffff;
+  font-size: 1.6em;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+#navbar-section .navbar.navbar-default {
+  padding-top: 1em;
+  background-color: #3F5EF8;
+  border: none;
+}
+
+#navbar-section ul.nav.navbar-nav.navbar-right {
+  margin-top: 0px;
+}
+
+#navbar-section .navbar-nav {
+  background-color: #3F5EF8;
+}
+
+#truck-options {
+  display: block;
+  padding-bottom: 1.5em;
+}
+
+#signup {
+  color: #6b7c93;
+}
+
+#signup p {
+  text-align: center;
+  color: #3ecf8e;
+}
+
+#signup label {
+  color: #6b7c93;
+}
+
+.signin_form {
+  margin-bottom: 30px;
+  height: 100%;
+  padding: 3em 0;
+}
+
+.form-input {
+  color: #ffffff;
+}
+
+.signup_banner {
+  background-color: #ffffff;
+  height: 100%;
+  padding: 3em 0;
+}
+
+.center {
+  text-align: center;
+}
+
+input[type=submit] {
+  color: black;
+}
+
+.map_img {
+  width: 300px;
+  margin-top: 15px;
+}
+
+.banner_text {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.schedule1 {
+  margin-top: 40px;
+}
+
+.nav-tabs {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tab-content {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
+
+.nav-tabs > li > a {
+  margin-right: -6px;
+}
+
+.no_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.no_link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#carousel-example-generic {
+  margin-top: 0px;
+}
+
+.panel.panel-default {
+  margin-top: 20px;
+}
+
+.mobile_img {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.add_button {
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.modal-content {
+  height: 150px;
+  margin-top: 50%;
+}
+
+.signin_input {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.nav.nav-tabs.schedule1 {
+  border: none;
+}
+
+.image_carousel {
+  padding: 0;
+}
+
+.carousel {
+  margin: -15px;
+}
+
+.img_slider {
+  width: 100%;
+}
+
+.container1,
+.container2 {
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.container4 {
+  margin-top: 15px;
+}
+
+#bs-example-navbar-collapse-1 {
+  border: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.banner_text2 {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.truck_text {
+  color: #ffffff;
+}
+
+#map {
+  border: 15px solid white;
+  border-radius: 5px;
+  height: 600px;
+  width: 90%;
+  margin: 2em 0;
+  color: black;
+}
+
+.container3 {
+  margin-bottom: 50px;
+}
+
+.container4 {
+  margin-top: 10px;
+}
+
+#hr_id {
+  width: 75%;
+}
+
+.container7 {
+  margin-bottom: 125px;
+}
+
+.highlight {
+  color: #3ecf8e;
+}
+
+input[type=submit] {
+  width: 100%;
+}
+
+.shopping_buttons {
+  text-align: center;
+}
+
+.table-alignment {
+  text-align: center;
+}
+
+.login-form > div {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 1.6em;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+/***********************/
+
+/*  desktop view css   */
+
+/***********************/
+
+@media only screen and (min-width: 992px) {
+  #banner-section {
+    color: white;
+  }
+
+  #banner-section h1 {
+    font-size: 3.7em;
+  }
+
+  #banner-section .signin_banner {
+    background-color: transparent;
+    border: none;
+  }
+
+  #banner-section .banner-fold {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    padding: 0 0 3em 0;
+  }
+
+  #banner-section .banner-fold h4 {
+    padding: 0.5em 2em;
+    font-size: 19px;
+  }
+
+  #body-section {
+    margin-top: 5em;
+  }
+
+  #body-section .jumbotron {
+    height: 400px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    margin: 0;
+  }
+
+  #body-section h4 {
+    line-height: 28px;
+    padding: 2em;
+    font-size: 1.3em;
+  }
+
+  #body-section .login-form {
+    width: 552px;
+    max-width: 552px;
+  }
+
+  #body-section .login_input {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+
+  #body-section .signin_input {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+
+  #truck-options {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+  }
+
+  input[type=submit] {
+    width: 50%;
+  }
+
+  .bottom-border {
+    border-bottom: 1px solid white;
+  }
+
+  .shopping_buttons {
+    text-align: right;
+  }
+
+  .login-form > div {
+    margin: 0;
   }
 }
 
