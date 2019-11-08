@@ -8,7 +8,7 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a href="/" class="nav-link font-weight-bold">HOME</a></li>
         <li class="nav-item"><a href="/trucks" class="nav-link font-weight-bold">TRUCKS</a></li>
-        <li class="nav-item"><a href="/login" class="nav-link font-weight-bold">REGISTER</a></li>
+        <li class="nav-item"><a href="/register" class="nav-link font-weight-bold">REGISTER</a></li>
         <li class="nav-item"><a href="/login" class="nav-link font-weight-bold">SIGN IN</a></li>
       </ul>
     </div>
