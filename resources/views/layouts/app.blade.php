@@ -10,7 +10,7 @@
     <title>Truckly</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOVdVZ3zaOCmKcbrD0MV7TyKJbFbIOpqk"></script>
 
     <!-- Fonts -->
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body style="display: flex; flex-direction: column; min-height: 100vh;">
     @include("partials.navbar")
