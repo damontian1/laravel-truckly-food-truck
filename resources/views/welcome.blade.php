@@ -12,7 +12,7 @@
 	</div>
 	<div class="container">
 	<div class="banner-fold">
-			<img src="/storage/banner.png" style="width: 100%; max-width: 600px;"/>
+			<img src="/assets/banner.png" style="width: 100%; max-width: 600px;"/>
 			<h4>Truckly is a fleet of food trucks located all over New York City. We are famous for our Asian fusion food. Our food has received tremendous praise from food critics such as Chase Green of Smart Eats and won the "Best New Chef" category at the 2016 NY Food Times Awards. We also pride ourselves in providing a seamless and fast delivery service with our state-of-the-art drone technology.
        </h4>
 	</div>
@@ -33,7 +33,7 @@
 	<div class="container pt-5">
 		<div class="row signin_form">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<h1 class="text-center">Log into your Account</h1>
+				<h1 class="text-center mb-5">Log into your Account</h1>
 				<form method="POST" action="{{ route('login') }}">
                         @csrf
 

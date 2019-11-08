@@ -83,19 +83,19 @@
         userMarker.setMap(map);
         var icon = [
             {
-                url: '/storage/gmaps_icon1.png',
+                url: '/assets/gmaps_icon1.png',
                 scaledSize: new google.maps.Size(35,30),
                 origin: new google.maps.Point(0, 0),
                 anchor: new google.maps.Point(20, 15)
             },
             {
-                url: '/storage/gmaps_icon2.png',
+                url: '/assets/gmaps_icon2.png',
                 scaledSize: new google.maps.Size(35,30),
                 origin: new google.maps.Point(0, 0),
                 anchor: new google.maps.Point(20, 15)
             },
             {
-                url: '/storage/gmaps_icon3.png',
+                url: '/assets/gmaps_icon3.png',
                 scaledSize: new google.maps.Size(35,30),
                 origin: new google.maps.Point(0, 0),
                 anchor: new google.maps.Point(20, 15)

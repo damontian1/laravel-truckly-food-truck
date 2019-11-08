@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/trucks', function () {
+    return view('trucks');
+});
+Route::get('/foods', function () {
+    return view('foods');
+});
 
 Auth::routes();
 
